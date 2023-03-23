@@ -18,3 +18,37 @@ function prime(numero){
     } 
 
 
+function vog(char) {
+    c = char.split();
+    var v_a = 0;
+    var v_e = 0;
+    var v_i = 0;
+    var v_o = 0;
+    var v_u = 0;
+    for (var i = 0; i < char.length; i++) {
+
+        if (char[i] == 'a') {
+            v_a++;
+        }
+        if (char[i] == 'e') {
+            v_e++;
+        }
+        if (char[i] == 'i') {
+             v_i++;
+        }
+        if (char[i] == 'o') {
+             v_o++;
+        }
+        if (char[i] == 'u') {
+             v_u++;
+        }
+
+    }
+    console.log("vogal a="+v_a);
+    console.log("vogal e="+v_e);
+    console.log("vogal i="+v_i);
+    console.log("vogal o="+v_o);
+    console.log("vogal u="+v_u);
+}
+
+
